@@ -22,8 +22,9 @@ pip install -r requirements.txt
 ```
 docker run --name arr_sync -v /Path/to/config.py:/app/config.py -p 5000:5000 fallenbagel/arr_sync
 ```
-3. Edit the `forwarder.sh`, replace ip with the ip of the docker container (hostname would work too if in the same docker network)
-4. Add the `forwarder.sh` script script with On Movie/Series delete trigger of *arr
+3. Download [forwarder.sh](https://raw.githubusercontent.com/Fallenbagel/mediarr-seerr-sync/main/forwarder.sh)
+4. Edit the `forwarder.sh`, replace ip with the ip of the docker container (hostname would work too if in the same docker network)
+5. Add the `forwarder.sh` script script with On Movie/Series delete trigger of *arr
 
 ## Special thanks to:
 - [arr_syncseerr](https://github.com/GHYAKIMA/arr_syncseerr)
