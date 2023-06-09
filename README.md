@@ -17,7 +17,7 @@ pip install -r requirements.txt
 5. Run with `python main.py` or `nohup python main.py &`(detached)
 
 #### Docker
-1. Copy the `config.py` to where you would like and edit the file to your needs
+1. Download the [config.py](https://raw.githubusercontent.com/Fallenbagel/mediarr-seerr-sync/main/config.py) to where you would like to mount your volume and edit the file to your needs
 2. Run the docker container with the `config.py` file passed in (add `-d` to run detached)
 ```
 docker run --name arr_sync -v /Path/to/config.py:/app/config.py -p 5000:5000 fallenbagel/arr_sync
